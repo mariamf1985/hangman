@@ -1,4 +1,87 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playpen Sans", cursive;
+}
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  padding-top: 10%;
+  overflow: hidden;
+}
+
+header {
+  background-color: white;
+  margin: auto;
+  height: 80px;
+}
+
+h2 {
+  text-align: center;
+  padding: 2%;
+}
+
+main {
+  background-color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+#image {
+  width: 35%;
+}
+
+#textsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#wordContainer {
+  margin-top: 15%;
+  height: 3em;
+}
+
+#wordContainer span {
+  vertical-align: bottom;
+  font-size: 2.4em;
+  border-bottom: 4px solid black;
+  width: 45px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#letterButtonsContainer {
+  margin-top: 11%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+}
+
+#letterButtonsContainer button {
+  width: 28px;
+  padding: 6px 0;
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button {
+  display: block;
+  height: 30px;
+  width: 90px;
 }
